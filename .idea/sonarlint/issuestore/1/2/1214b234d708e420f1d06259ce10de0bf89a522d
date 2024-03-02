@@ -1,0 +1,6 @@
+
+^
+java:S4973"<Strings and Boxed types should be compared using "equals()".(’ÔÁ‘ıÿÿÿÿ8è²‚à1
+L	java:S106"+Replace this use of System.out by a logger.(ü´èßıÿÿÿÿ8­Øş€à1
+G	java:S106"+Replace this use of System.out by a logger.(âÓå¯8³‚à1
+G	java:S106#"+Replace this use of System.out by a logger.(ŸÍÒ€8¡ğ‚à1
