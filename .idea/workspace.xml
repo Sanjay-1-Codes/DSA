@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab5da724-0984-4349-a1d6-00672602fedc" name="Changes" comment="Variables and operators section refactored">
-      <change afterPath="$PROJECT_DIR$/src/_1programminglanguage/_1variablesandoperators/VariablesAndOperatorsExecutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/1214b234d708e420f1d06259ce10de0bf89a522d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/1214b234d708e420f1d06259ce10de0bf89a522d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c11c10a35322c14331796f9c9bd44a7e265365b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9c11c10a35322c14331796f9c9bd44a7e265365b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programminglanguage/_1variablesandoperators/VariablesAndOperatorsExecutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_1programminglanguage/_1variablesandoperators/VariablesAndOperatorsExecutable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_1programminglanguage/_1variablesandoperators/VariablesAndOperatorsExecutable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +77,15 @@
       <option name="presentableId" value="Default" />
       <updated>1709389855516</updated>
     </task>
+    <task id="LOCAL-00001" summary="Variables and operators section refactored">
+      <option name="closed" value="true" />
+      <created>1710566748776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710566748776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
