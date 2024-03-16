@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab5da724-0984-4349-a1d6-00672602fedc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/1214b234d708e420f1d06259ce10de0bf89a522d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/2/1214b234d708e420f1d06259ce10de0bf89a522d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG DSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/programminglanguage/_1variablesandoperators/VariablesAndOperatorsExecutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c11c10a35322c14331796f9c9bd44a7e265365b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c11c10a35322c14331796f9c9bd44a7e265365b" afterDir="false" />
+    <list default="true" id="ab5da724-0984-4349-a1d6-00672602fedc" name="Changes" comment="Variables and operators section refactored">
+      <change afterPath="$PROJECT_DIR$/src/_1programminglanguage/_1variablesandoperators/VariablesAndOperatorsExecutable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/1214b234d708e420f1d06259ce10de0bf89a522d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/1214b234d708e420f1d06259ce10de0bf89a522d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c11c10a35322c14331796f9c9bd44a7e265365b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/c/9c11c10a35322c14331796f9c9bd44a7e265365b" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/programminglanguage/variablesandoperators/VariablesAndOperatorsExecutable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/programminglanguage/_1variablesandoperators/VariablesAndOperatorsExecutable.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +24,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2d8VmQyWYrveRBbPxrdbD9vmfUp" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,6 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
@@ -55,11 +51,11 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="VariablesAndOperatorsExecutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="programminglanguage._1variablesandoperators.VariablesAndOperatorsExecutable" />
+      <option name="MAIN_CLASS_NAME" value="_1programminglanguage._1variablesandoperators.VariablesAndOperatorsExecutable" />
       <module name="GFG DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programminglanguage._1variablesandoperators.*" />
+          <option name="PATTERN" value="_1programminglanguage._1variablesandoperators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,5 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Variables and operators section refactored" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variables and operators section refactored" />
   </component>
 </project>
