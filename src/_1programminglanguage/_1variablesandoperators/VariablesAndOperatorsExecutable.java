@@ -12,10 +12,12 @@ public class VariablesAndOperatorsExecutable {
         understandAutoBoxingAndUnboxing();
         understandEscapeSequence();
         understandDivisionAndPreciseFormat();
+        understandBitwise();
         nthTermOfAnArithmeticSequence(1, 2, 4);
         nthTermOfAGeometricSequence(1, 2, 4);
         sumOfNNaturalNumbers(3);
         lastDigitOfANumber(123);
+        findEvenOrOddWithoutModulo(2);
         dayBeforeNDays(2, 4);
     }
 
@@ -34,24 +36,36 @@ public class VariablesAndOperatorsExecutable {
      * @param n - no of days to reduce
      */
     public static void dayBeforeNDays(int d, int n) {
-        //My thinking
+        //Naive Solution
         int minus = d - n;
         if (minus >= 0) {
-            System.out.print(minus);
+            LOGGER.info(String.format("%d days before the %d day is : %d", n, d, minus));
         } else if (minus >= -7) {
-            System.out.print(7 + minus);
+            LOGGER.info(String.format("%d days before the %d day is : %d", n, d, 7 + minus));
         } else {
             int modulo = minus % 7;
-            System.out.print(7 + modulo);
+            LOGGER.info(String.format("%d days before the %d day is : %d", n, d, 7 + modulo));
         }
 
         // Efficient
         int x = n % 7;
         int ans = d - x;
         if (ans >= 0) {
-            System.out.print(ans);
+            LOGGER.info(String.format("%d days before the %d day is : %d", n, d, ans));
         } else {
-            System.out.print(ans + 7);
+            LOGGER.info(String.format("%d days before the %d day is : %d", n, d, ans + 7));
+        }
+    }
+
+    /**
+     * We can find whether the given number is even or odd using BITWISE AND with 1
+     * Thumb rule is the last bit on an int is 1 then its odd number
+     */
+    public static void findEvenOrOddWithoutModulo(int n) {
+        if ((n & 1) == 0) {
+            LOGGER.info(String.format("Number %d is Even Number.", n));
+        } else {
+            LOGGER.info(String.format("Number %d is Odd Number.", n));
         }
     }
 
@@ -80,8 +94,40 @@ public class VariablesAndOperatorsExecutable {
     }
 
     /**
+     * Bitwise operator operates on the binary form of the elements
+     * & - AND - Gives 1 when both are 1 - Eg: 1 & 2 = 0
+     * | - OR - Gives 1 when anyone is 1 - Eg: 1 | 2 = 3
+     * ~ - NOT - Inverts 1 to 0 and 0 to 1 - Eg: ~1 = -2
+     * ^ - XOR - Gives 1 when both are different 0 when both are same - Eg: 2 ^ 1 = 3
+     * >> - RIGHT SHIFT - Right shifts the given binary number by specified times and fills zero for voids when +ve
+     * and ones for voids when negative, sign digit is maintained the same as the element - Eg: -8>>1 = -4
+     * << - LEFT SHIFT - Left shifts the given binary number by specified times and appends zero to the end - Eg:
+     * -8<<1 = -16
+     * >>> - UNSIGNED RIGHT SHIFT - Right shifts the given binary number by specified times and appends zero to the
+     * front - Eg: -8>>>1 = 2147483644
+     * Explanation of ~1
+     * ------------------
+     * In Java -ve numbers are stored in 2's complement form
+     * 1's binary form  000..001
+     * ~1's binary form 111..110 -> required answer
+     * Representation of -x = 2^32 - x
+     * 2^32 - 1 = 32 ones - binary form
+     * 2^3 - 1 = 111 - binary form
+     * 111..110 = 2^32 -1 -1 = 2^32 - 2 -> value of ~1 = -2
+     */
+    public static void understandBitwise() {
+        LOGGER.info(String.format("Bitwise AND of 1 and 2 is %d", 1 & 2));
+        LOGGER.info(String.format("Bitwise OR of 1 and 2 is %d", 1 | 2));
+        LOGGER.info(String.format("Bitwise XOR of 1 and 2 is %d", 1 ^ 2));
+        LOGGER.info(String.format("Bitwise NOT of 1 is %d", ~1));
+        LOGGER.info(String.format("Bitwise RIGHT SHIFT of -8 by 1 is %d", -8 >> 1));
+        LOGGER.info(String.format("Bitwise UNSIGNED RIGHT SHIFT of -8 by 1 is %d", -8 >>> 1));
+        LOGGER.info(String.format("Bitwise LEFT SHIFT of -8 by 1 is %d", -8 << 1));
+    }
+
+    /**
      * If both the quotient and divisor are non-decimal the output is non-decimal
-     * If any one or both are decimal then the output is double
+     * If any one or both are decimal then the output is that decimal type
      * For format of precision %.Yf or %X.Yf is used
      * X - total no of characters including the ones after decimal point and the decimal point
      * Y - total no of characters after decimal point

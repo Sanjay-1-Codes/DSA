@@ -1,18 +1,0 @@
-
-^
-java:S4973A"<Strings and Boxed types should be compared using "equals()".(’ÔÁ‘ıÿÿÿÿ8¦Ã¾­ä1
-g
-java:S2184"ECast one of the operands of this subtraction operation to a "double".(ï·ŠŞûÿÿÿÿ8§Ã¾­ä1
-m
-java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(³ú|8¤…Ã­ä1
-F	java:S106"+Replace this use of System.out by a logger.(³ú|8ØÃ¾­ä1
-m
-java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(šÀ®88¦çÂ­ä1
-F	java:S106"+Replace this use of System.out by a logger.(šÀ®88ÙÃ¾­ä1
-G	java:S106"+Replace this use of System.out by a logger.(Ìâª8ÛÃ¾­ä1
-G	java:S106#"+Replace this use of System.out by a logger.(Ìâª8İÃ¾­ä1
-G	java:S1063"+Replace this use of System.out by a logger.(Ùêï8ŞÃ¾­ä1
-G	java:S1064"+Replace this use of System.out by a logger.(¦Œˆ°8àÃ¾­ä1
-L	java:S106B"+Replace this use of System.out by a logger.(ü´èßıÿÿÿÿ8áÃ¾­ä1
-G	java:S106D"+Replace this use of System.out by a logger.(âÓå¯8åÃ¾­ä1
-G	java:S106R"+Replace this use of System.out by a logger.(ŸÍÒ€8Í½À­ä1
